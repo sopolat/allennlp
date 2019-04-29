@@ -63,7 +63,7 @@ local BASE_ITERATOR = {
   "model": {
     "type": "language_model",
     "bidirectional": true,
-    "num_samples": 8192,
+    "num_samples": 2048,
     "sparse_embeddings": true,
     "text_field_embedder": {
       // Note: This is because we only use the token_characters during embedding, not the tokens themselves.
